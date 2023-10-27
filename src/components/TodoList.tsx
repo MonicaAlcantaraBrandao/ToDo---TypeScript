@@ -4,8 +4,7 @@ import TodoListitem from "./TodoListItem";
 
 const TodoList = () => {
     const todos : Todo[] = [
-        {id:1, title:'Ir ao supermercado', done:false},
-        {id:2, title:'Ir à academia', done:false},
+        
     ];
     return(
     <table className="uk-table">
